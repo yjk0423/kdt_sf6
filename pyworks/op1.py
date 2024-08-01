@@ -18,7 +18,7 @@ print(n1 % n2)
 
 print(n1 ** n2)
 
-
+# 실습
 bread = 30
 person = 4
 
@@ -29,5 +29,5 @@ b= bread % person
 print(f"빵의 개수: ",str(a))
 print(f"남은 빵의 개수:", str(b))
 
-print("빵의 개수: ", str(bread // person))
-print("빵의 개수: ", str(bread % person))
+print("빵의 개수: ", bread // person)
+print("남은 빵의 개수: "+ str(bread % person))

@@ -27,5 +27,16 @@ user_pw = "ser123"
 email = "jerry@korea.com"
 
 
-print("아이디: " + user_id)
+#print("아이디: " + user_id)
+print(f"아이디 : {user_id}")
 print("비밀번호: " + user_pw)
+
+#소수점 처리하기
+n1 = 10
+n2 = 3
+div = n1 / n2
+
+print(f'결과값: {div : .1f}')
+print(f'결과값: {round(div, 2)}')
+# 반올림 함수 - round(숫자, 자리수)
+print(round(1.647, 2))
