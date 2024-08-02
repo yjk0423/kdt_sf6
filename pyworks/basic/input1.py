@@ -20,11 +20,11 @@ print(num1 + num2)
 #오류 처리(try ~ except 구문)
 # :(콜론) - 코드 블럭 ({ })
 
-try:
-    num1 = input("1번 수 입력 : ")
-    num2 = input("2번 수 입력 : ")
-
-print(int(num1) + int(num2))
-
-except:
-    print("정수 입력하시오.")
+# try:
+#     num1 = input("1번 수 입력 : ")
+#     num2 = input("2번 수 입력 : ")
+#
+# print(int(num1) + int(num2))
+#
+# except:
+#     print("정수 입력하시오.")

@@ -5,7 +5,7 @@
 width = float(input("가로 입력 :"))
 height = float(input("세로 입력 :"))
 # 계산
-print("계산:",width * height)
+print("계산:",str(width * height)+"cm")
 # 출력
 
 
