@@ -38,3 +38,9 @@ for i in score:
     if max_value < i:
         max_value = i
 print(max_value)
+#최소값
+min_value = 10000
+for i in score:
+    if min_value > i:
+        min_value = i
+print(min_value)
