@@ -39,3 +39,19 @@ print(dict1)
 dict1[4] = "d"
 
 print(dict1)
+
+# for 문으로 전체 조회
+for key in dict1.keys():
+    print(f"{key} : {dict1[key]}")
+
+# 요소 수정 - key = 3을 value = k 으로
+
+dict1[3] = "k"
+print(dict1)
+# 요소 삭제 2번
+dict1.pop(2)
+print(dict1)
+
+# 빈 딕셔너리 생성
+dict2 = {}
+print(dict2)
