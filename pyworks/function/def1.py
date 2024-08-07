@@ -21,6 +21,8 @@ def myabs(x):
 
 def mul(x,y):
     return x * y
+
+
 # 메인 영역
 asw = hello()
 greeting("fuck")
@@ -34,4 +36,3 @@ print(a)
 # print(abs(-10)) # abs(): 10 출력 (양수가 무족건나옴)
 print(myabs(-2323))
 print(mul(5,2))
-
