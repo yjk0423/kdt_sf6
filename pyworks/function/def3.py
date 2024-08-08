@@ -9,3 +9,5 @@ def gob_n(n):
 n = 4
 print(gob_n(n))
 print(n)
+
+
