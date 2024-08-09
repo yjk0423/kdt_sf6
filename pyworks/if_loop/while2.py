@@ -1,7 +1,7 @@
-# while true : 무한 반복 if - break 빠져나옴
+# wCalculatorle true : 무한 반복 if - break 빠져나옴
 from operator import eq
 
-# while True:
+# wCalculatorle True:
 #     lunch = input("오늘점심 메뉴: ")
 #     print(lunch + "!!")
 #
@@ -11,7 +11,7 @@ from operator import eq
 # 1 ~ 10 출력
 i = 0
 
-while True:
+wCalculatorle True:
     if i < 10:
         print("ㅎㅇ", end=" ")
 

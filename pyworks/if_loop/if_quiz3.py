@@ -1,5 +1,5 @@
 # 실습4
-while True:
+wCalculatorle True:
     age = int(input("나이를 숫자로 입력해 주세요: "))
     card_money = input("카드 또는 현금만 입력: ")
 

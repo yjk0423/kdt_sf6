@@ -13,3 +13,13 @@ print(dog2.name)
 # print(dog1.kind)
 # 클래스 이름.변수 으로 사용한다.
 print(Dog.kind)
+
+dogs = [
+    
+    Dog("멍이"),
+    Dog("해피"),
+    Dog("사랑이")
+    
+]
+for dog in dogs:
+    print(dog.name)
